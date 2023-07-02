@@ -1,0 +1,65 @@
+.header{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $bg-color-white;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+
+	&__logo{
+		height: 2.2rem;
+	}
+
+	&__main-nav{
+		display: block;
+	}
+
+	&__main-nav-list {
+		height: 4.2rem;
+		list-style: none;
+		display: flex;
+		align-items: center;
+		gap: 4.8rem;
+	}
+
+	&__main-nav-link:link, &__main-nav-link:visited {
+		display: inline-block;
+		text-decoration: none;
+		color: $text-color-h;
+		font-weight: 500;
+		font-size: 1.8rem;
+		transition: all 0.3s;
+	}
+
+	&__main-nav-link:hover{
+		color: $span-color;
+	}
+
+	&__main-nav-link.nav-cta:link, &__main-nav-link.nav-cta:visited{
+		padding: 1.2rem 2.4rem;
+		border-radius: 9px;
+		color: $color-white;
+		background-color: $button-color;
+	}
+
+	&__main-nav-link.nav-cta:hover{
+		background-color: $span-color;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+// &__some-h1, &__some-h2, &__some-h3 {
+// 	font-weight: 700;
+// 	color: #333;
+// 	letter-spacing: -0.5px;
+// }
